@@ -91,7 +91,7 @@ export default function DemoPinned() {
         scrollTrigger: {
           trigger: container.current,
           start: "top top",
-          end: "+=2800",
+          end: "+=2000",
           scrub: 1,
           pin: wrapper.current,
           onUpdate: (self) => {
@@ -142,7 +142,7 @@ export default function DemoPinned() {
   );
 
   return (
-    <section ref={container} className="relative bg-[#0a0512] text-white">
+    <section ref={container} className="relative bg-background text-foreground z-10">
       <div ref={wrapper} className="h-screen w-full flex items-center justify-center">
         {/* Main frame */}
         <div className="relative w-[94%] max-w-[1400px] h-[88vh] mt-15 rounded-xl border border-white/10 overflow-hidden shadow-[0_40px_120px_rgba(0,0,0,.7)]">
