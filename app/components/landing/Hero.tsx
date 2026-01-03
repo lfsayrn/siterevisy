@@ -167,7 +167,7 @@ export default function Hero() {
               </div>
 
               <Image
-                src="/capturas/principal-2.png"
+                src="/capturas/principal.webp"
                 alt="Revisy Application Screenshot"
                 fill
                 className="object-cover"
