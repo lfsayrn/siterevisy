@@ -1,26 +1,30 @@
 "use client";
 
 import { useRef } from "react";
+import Image from "next/image";
 import { gsap, useGSAP } from "@/lib/gsap";
 
 const FEATURES = [
   {
-    title: "Collaborative by Design",
-    body: "Invite clients and guests instantly. No sign-up required for them to leave notes. Keep everyone in sync without the friction.",
+    title: "Colaboração Nativa",
+    body: "Convide clientes e colaboradores instantaneamente. Sem cadastro para deixar notas. Mantenha todos sincronizados sem atrito.",
     align: "left",
     icon: "👥",
+    imageUrl: "/capturas/invites.webp",
   },
   {
-    title: "Version Control, Simplified",
-    body: "Keep every mix revision in one stack. Never ask 'is this v3 or v4?' again. Revert or compare with a single click.",
+    title: "Controle de Versões Simplificado",
+    body: "Mantenha todas as revisões de mix em um só lugar. Nunca mais pergunte 'é a v3 ou v4?'. Reverta ou compare com um clique.",
     align: "right",
     icon: "📚",
+    imageUrl: "/capturas/versao.webp",
   },
   {
-    title: "Export to DAW",
-    body: "Sync comments directly into Reaper. Turn feedback into a structured to-do list inside your session. Pro Tools & Logic coming soon.",
+    title: "Exportar para DAW",
+    body: "Sincronize comentários diretamente no Reaper. Transforme feedback em uma lista de tarefas estruturada na sua sessão. Pro Tools e Logic em breve.",
     align: "left",
     icon: "⚡",
+    imageUrl: "/capturas/exportar.webp",
   },
 ];
 
@@ -37,6 +41,8 @@ export default function Features() {
           scrollTrigger: {
             trigger: chapter,
             start: "top 80%",
+            end: "bottom 20%",
+            toggleActions: "play reverse play reverse",
           },
         });
 
@@ -51,7 +57,7 @@ export default function Features() {
   );
 
   return (
-    <section ref={container} className="py-32 bg-[#050505] space-y-32 overflow-hidden">
+    <section id="features" ref={container} className="py-32 bg-[#050505] space-y-32 overflow-hidden">
       {FEATURES.map((feat, i) => (
         <div
           key={i}
@@ -71,11 +77,9 @@ export default function Features() {
           {/* Visual Side */}
           <div className="feat-visual flex-1 w-full">
             <div className="aspect-4/3 bg-linear-to-br from-white/5 to-[#111] rounded-3xl border border-white/5 relative overflow-hidden group">
-              {/* Placeholder Visuals */}
-              <div className="absolute inset-0 flex items-center justify-center opacity-20 group-hover:opacity-30 transition-opacity">
-                {i === 0 && <div className="text-[120px]">👋</div>}
-                {i === 1 && <div className="text-[120px]">📑</div>}
-                {i === 2 && <div className="text-[120px]">🎹</div>}
+              {/* Feature Image */}
+              <div className="absolute inset-0 opacity-60 group-hover:opacity-80 transition-opacity">
+                <Image src={feat.imageUrl} alt={feat.title} fill className="object-cover" />
               </div>
             </div>
           </div>

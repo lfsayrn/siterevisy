@@ -9,25 +9,25 @@ const INTEGRATIONS = [
     name: "Reaper",
     logo: "/reaper-logo.png",
     available: true,
-    description: "Export notes as markers",
+    description: "Exportar notas como markers",
   },
   {
     name: "Logic Pro",
     logo: "/logic-pro.png",
     available: false,
-    description: "Coming Q2 2025",
+    description: "Em breve Q2 2025",
   },
   {
     name: "Pro Tools",
     logo: "/pro-tools.png",
     available: false,
-    description: "Coming Q3 2025",
+    description: "Em breve Q3 2025",
   },
   {
     name: "Ableton",
     logo: "/ableton.png",
     available: false,
-    description: "Coming Q4 2025",
+    description: "Em breve Q4 2025",
   },
 ];
 
@@ -80,13 +80,13 @@ export default function Integrations() {
         {/* Header */}
         <div className="text-center mb-16">
           <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-mono text-muted-foreground tracking-wider uppercase mb-4">
-            Integrations
+            Integrações
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 tracking-tight">
-            Connects with your studio
+            Conecta com seu estúdio
           </h2>
           <p className="text-lg text-muted-foreground max-w-xl mx-auto">
-            Export your notes directly to your DAW. Work faster, stay in flow.
+            Exporte suas notas diretamente para sua DAW. Trabalhe mais rápido, mantenha o flow.
           </p>
         </div>
 
@@ -112,7 +112,7 @@ export default function Integrations() {
                   <div className="flex-1 h-0.5 bg-gradient-to-r from-primary via-primary/50 to-muted rounded-full" />
                   <div className="flex items-center gap-1">
                     <span className="text-xs text-muted-foreground bg-card px-2 py-1 rounded-full border border-border">
-                      Export
+                      Exportar
                     </span>
                   </div>
                   <div className="flex-1 h-0.5 bg-gradient-to-r from-muted via-primary/50 to-primary rounded-full" />
@@ -131,12 +131,12 @@ export default function Integrations() {
               <div className="flex-1 text-center md:text-left">
                 <div className="inline-flex items-center gap-2 px-2 py-1 rounded-full bg-primary/20 text-primary text-xs font-semibold mb-3">
                   <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-                  Available Now
+                  Disponível Agora
                 </div>
-                <h3 className="text-2xl font-bold text-foreground mb-2">One-click marker export</h3>
+                <h3 className="text-2xl font-bold text-foreground mb-2">Exportação de markers com um clique</h3>
                 <p className="text-muted-foreground">
-                  All your timestamped notes become Reaper markers. Open your project and jump to each feedback point
-                  instantly.
+                  Todas as suas notas com timestamp viram markers no Reaper. Abra seu projeto e pule para cada ponto de
+                  feedback instantaneamente.
                 </p>
               </div>
             </div>
@@ -145,8 +145,8 @@ export default function Integrations() {
 
         {/* Other DAWs */}
         <div className="text-center mb-8">
-          <h3 className="text-lg font-semibold text-foreground mb-2">More integrations coming</h3>
-          <p className="text-sm text-muted-foreground">We're working on support for your favorite DAWs</p>
+          <h3 className="text-lg font-semibold text-foreground mb-2">Mais integrações em breve</h3>
+          <p className="text-sm text-muted-foreground">Estamos trabalhando no suporte para suas DAWs favoritas</p>
         </div>
 
         <div className="daw-grid grid grid-cols-3 gap-4 max-w-lg mx-auto">

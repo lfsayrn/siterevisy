@@ -83,28 +83,29 @@ export default function Hero() {
       {/* Content */}
       <div className="container mx-auto px-4 z-10 flex flex-col items-center text-center">
         <div className="max-w-4xl mx-auto space-y-6">
-          <div className="hero-anim opacity-0 inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-mono text-primary tracking-wider uppercase mb-4">
+          {/* <div className="hero-anim opacity-0 inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-mono text-primary tracking-wider uppercase mb-4">
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-            Audio Review Reinvented
-          </div>
+            Um novo conceito de revisão de áudio
+          </div> */}
 
           <h1 className="hero-anim opacity-0 text-5xl md:text-7xl font-bold tracking-tight text-foreground leading-[1.1]">
-            The New Standard for <br />
+            O Novo Padrão em <br />
             <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-primary">
-              Audio Collaboration
+              Colaboração de Áudio
             </span>
           </h1>
 
           <p className="hero-anim opacity-0 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Stop the email chaos. Share high-fidelity audio, get timestamped feedback, and approve mixes in real-time.
+            Chega de caos nas suas produções. Compartilhe áudio em alta fidelidade, receba feedback com timestamp e
+            aprove mixagens em tempo real.
           </p>
 
           <div className="hero-anim opacity-0 flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
             <button className="px-8 py-4 bg-primary text-primary-foreground font-semibold rounded-xl hover:scale-105 active:scale-95 transition-transform duration-200">
-              Start Free Trial
+              Começar Teste Grátis
             </button>
-            <button className="px-8 py-4 bg-white/5 border border-white/10 text-foreground font-medium rounded-xl hover:bg-white/10 transition-colors flex items-center gap-2 group">
-              <span>See live demo</span>
+            <button className="hidden md:flex px-8 py-4 bg-white/5 border border-white/10 text-foreground font-medium rounded-xl hover:bg-white/10 transition-colors items-center gap-2 group">
+              <span>Ver demonstração</span>
               <svg
                 className="w-4 h-4 group-hover:translate-x-1 transition-transform"
                 fill="none"
@@ -148,7 +149,7 @@ export default function Hero() {
             </div>
 
             {/* Screenshot Placeholder */}
-            <div className="relative aspect-[16/10] bg-muted flex items-center justify-center">
+            <div className="relative aspect-[16/10] bg-[#101010] flex items-center justify-center">
               {/* Placeholder - Replace with actual screenshot */}
               <div className="text-muted-foreground text-sm flex flex-col items-center gap-3">
                 <svg
@@ -162,18 +163,16 @@ export default function Hero() {
                   <circle cx="8.5" cy="8.5" r="1.5" />
                   <polyline points="21 15 16 10 5 21" />
                 </svg>
-                <span className="opacity-50">App Screenshot</span>
+                <span className="opacity-50">Captura do App</span>
               </div>
 
-              {/* Uncomment and add your image path:
               <Image
-                src="/app-screenshot.png"
+                src="/capturas/principal-2.png"
                 alt="Revisy Application Screenshot"
                 fill
                 className="object-cover"
                 priority
               />
-              */}
             </div>
           </div>
 

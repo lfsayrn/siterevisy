@@ -10,6 +10,7 @@ import Security from "@/app/components/landing/Security";
 import Pricing from "@/app/components/landing/Pricing";
 import FAQ from "@/app/components/landing/FAQ";
 import CTA from "@/app/components/landing/CTA";
+import Footer from "@/app/components/landing/Footer";
 
 export const metadata = {
   title: "Revisy - Audio Collaboration Reinvented",
@@ -37,11 +38,7 @@ export default function LandingPage() {
       <Pricing />
       <FAQ />
       <CTA />
-
-      {/* Footer */}
-      <footer className="py-8 bg-background border-t border-border text-center text-muted-foreground text-sm">
-        <p>© {new Date().getFullYear()} Revisy. All rights reserved.</p>
-      </footer>
+      <Footer />
     </main>
   );
 }

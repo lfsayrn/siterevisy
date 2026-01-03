@@ -41,10 +41,10 @@ export default function ProblemSolution() {
         {/* Section Header */}
         <div className="section-header text-center mb-16">
           <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-mono text-muted-foreground tracking-wider uppercase mb-4">
-            Why Revisy?
+            Por que Revisy?
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground tracking-tight">
-            The difference is <span className="text-primary">crystal clear</span>
+            A diferença é <span className="text-primary">inegável</span>
           </h2>
         </div>
 
@@ -70,7 +70,7 @@ export default function ProblemSolution() {
                     <line x1="6" y1="6" x2="18" y2="18" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-foreground">The Old Way</h3>
+                <h3 className="text-xl font-bold text-foreground">Padrão atual</h3>
               </div>
 
               {/* Items */}
@@ -82,8 +82,8 @@ export default function ProblemSolution() {
                     </svg>
                   </span>
                   <div>
-                    <p className="text-foreground font-medium">Endless email threads</p>
-                    <p className="text-sm text-muted-foreground mt-0.5">"Which version is this? v4 or v4_FINAL?"</p>
+                    <p className="text-foreground font-medium">Emails intermináveis.</p>
+                    <p className="text-sm text-muted-foreground mt-0.5">"Qual versão é essa? v4 ou v4_FINAL?"</p>
                   </div>
                 </li>
                 <li className="prob-item flex items-start gap-4">
@@ -93,8 +93,8 @@ export default function ProblemSolution() {
                     </svg>
                   </span>
                   <div>
-                    <p className="text-foreground font-medium">Vague feedback</p>
-                    <p className="text-sm text-muted-foreground mt-0.5">"Fix the bass around 1:20-ish"</p>
+                    <p className="text-foreground font-medium">Feedbacks vagos.</p>
+                    <p className="text-sm text-muted-foreground mt-0.5">"Ajusta o grave por volta de 1:20"</p>
                   </div>
                 </li>
                 <li className="prob-item flex items-start gap-4">
@@ -104,9 +104,9 @@ export default function ProblemSolution() {
                     </svg>
                   </span>
                   <div>
-                    <p className="text-foreground font-medium">Lost files everywhere</p>
+                    <p className="text-foreground font-medium">Arquivos perdidos.</p>
                     <p className="text-sm text-muted-foreground mt-0.5">
-                      Expired WeTransfer links and buried Drive folders
+                      Links do WeTransfer expirados e pastas enterradas no Drive.
                     </p>
                   </div>
                 </li>
@@ -117,10 +117,8 @@ export default function ProblemSolution() {
                     </svg>
                   </span>
                   <div>
-                    <p className="text-foreground font-medium">No clear approval process</p>
-                    <p className="text-sm text-muted-foreground mt-0.5">
-                      "Did the client sign off? Check the thread..."
-                    </p>
+                    <p className="text-foreground font-medium">Processo de aprovação complexo.</p>
+                    <p className="text-sm text-muted-foreground mt-0.5">"O cliente aprovou? Olha na thread..."</p>
                   </div>
                 </li>
               </ul>
@@ -147,9 +145,9 @@ export default function ProblemSolution() {
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-foreground">The Revisy Way</h3>
+                <h3 className="text-xl font-bold text-foreground">Padrão Revisy</h3>
                 <span className="ml-auto px-2 py-0.5 rounded-md bg-primary/20 text-primary text-xs font-semibold">
-                  Better
+                  Melhor
                 </span>
               </div>
 
@@ -162,20 +160,9 @@ export default function ProblemSolution() {
                     </svg>
                   </span>
                   <div>
-                    <p className="text-foreground font-medium">One link, always updated</p>
-                    <p className="text-sm text-muted-foreground mt-0.5">Share once, everyone sees the latest version</p>
-                  </div>
-                </li>
-                <li className="sol-item flex items-start gap-4">
-                  <span className="mt-1 h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center shrink-0">
-                    <svg className="w-3 h-3 text-primary" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                    </svg>
-                  </span>
-                  <div>
-                    <p className="text-foreground font-medium">Frame-accurate comments</p>
+                    <p className="text-foreground font-medium">Link único, sempre atualizado.</p>
                     <p className="text-sm text-muted-foreground mt-0.5">
-                      Click on the waveform, leave precise feedback
+                      Compartilhe uma vez e todos terão acesso a versão mais recente.
                     </p>
                   </div>
                 </li>
@@ -186,9 +173,9 @@ export default function ProblemSolution() {
                     </svg>
                   </span>
                   <div>
-                    <p className="text-foreground font-medium">Version history built-in</p>
+                    <p className="text-foreground font-medium">Comentários precisos.</p>
                     <p className="text-sm text-muted-foreground mt-0.5">
-                      Compare any two versions side-by-side instantly
+                      Clique na waveform, deixe um feedback preciso.
                     </p>
                   </div>
                 </li>
@@ -199,8 +186,23 @@ export default function ProblemSolution() {
                     </svg>
                   </span>
                   <div>
-                    <p className="text-foreground font-medium">Clear approval workflow</p>
-                    <p className="text-sm text-muted-foreground mt-0.5">One click to approve, everyone gets notified</p>
+                    <p className="text-foreground font-medium">Histórico de versões integrado.</p>
+                    <p className="text-sm text-muted-foreground mt-0.5">
+                      Compare duas versões lado a lado instantaneamente.
+                    </p>
+                  </div>
+                </li>
+                <li className="sol-item flex items-start gap-4">
+                  <span className="mt-1 h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center shrink-0">
+                    <svg className="w-3 h-3 text-primary" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                    </svg>
+                  </span>
+                  <div>
+                    <p className="text-foreground font-medium">Fluxo de aprovação claro</p>
+                    <p className="text-sm text-muted-foreground mt-0.5">
+                      Um clique para aprovar, todos são notificados.
+                    </p>
                   </div>
                 </li>
               </ul>

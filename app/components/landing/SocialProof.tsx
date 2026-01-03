@@ -32,9 +32,9 @@ export default function SocialProof() {
   );
 
   return (
-    <section ref={container} className="py-12 bg-[#050505] border-y border-white/5">
+    <section ref={container} className="hidden py-12 bg-[#050505] border-y border-white/5">
       <div className="container mx-auto px-4 text-center">
-        <p className="text-sm font-medium text-zinc-500 uppercase tracking-widest mb-10">Trusted by producers at</p>
+        <p className="text-sm font-medium text-zinc-500 uppercase tracking-widest mb-10">Usado por produtores da</p>
 
         <div className="relative w-full overflow-hidden mask-fade-sides">
           {/* Wrapper for marquee */}

@@ -6,27 +6,27 @@ import { gsap, useGSAP, ScrollTrigger } from "@/lib/gsap";
 const STEPS = [
   {
     title: "Upload",
-    desc: "Drag & drop your high-res audio files. We support WAV, AIFF, FLAC, and more.",
+    desc: "Arraste e solte seus arquivos de áudio em alta resolução. Suportamos WAV, AIFF, FLAC e mais.",
     icon: "↑",
   },
   {
-    title: "Share",
-    desc: "Generate a secure link and send it to your client. No account needed for them.",
+    title: "Compartilhe",
+    desc: "Gere um link seguro e envie para seus clientes. Sem necessidade deles criarem uma conta.",
     icon: "→",
   },
   {
-    title: "Review",
-    desc: "They click, listen, and leave timestamped comments directly on the waveform.",
+    title: "Revise",
+    desc: "Eles clicam, ouvem e deixam comentários com timestamp diretamente na waveform.",
     icon: "💬",
   },
   {
-    title: "Revise",
-    desc: "Export notes to your DAW, make changes, and upload the new version.",
+    title: "Ajuste",
+    desc: "Exporte as notas para sua DAW, altere e suba a nova versão.",
     icon: "🔄",
   },
   {
-    title: "Approve",
-    desc: "Client signs off with one click. Everyone gets notified. Done.",
+    title: "Aprove",
+    desc: "Cliente aprova com um clique. Todos são notificados. Pronto.",
     icon: "✓",
   },
 ];
@@ -81,13 +81,13 @@ export default function Workflow() {
         {/* Header */}
         <div className="text-center mb-20">
           <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-mono text-muted-foreground tracking-wider uppercase mb-4">
-            How it works
+            Como funciona
           </span>
           <h2 className="text-4xl md:text-6xl font-bold text-foreground mb-4 tracking-tight">
-            From first bounce to final master.
+            Do primeiro bounce ao master final.
           </h2>
           <p className="text-lg text-muted-foreground max-w-xl mx-auto">
-            A streamlined workflow that keeps everyone in sync.
+            Um fluxo de trabalho otimizado que mantém todos sincronizados.
           </p>
         </div>
 
@@ -137,7 +137,7 @@ export default function Workflow() {
                         isCompleted ? "bg-primary/20 text-primary" : "bg-muted text-muted-foreground"
                       }`}
                     >
-                      Step {i + 1}
+                      Passo {i + 1}
                     </span>
                   </div>
                   <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-2">{step.title}</h3>

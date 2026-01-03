@@ -32,16 +32,16 @@ export default function Header() {
         {/* Nav / CTA */}
         <div className="flex items-center gap-4">
           <Link
-            href="/login"
+            href="https://app.userevisy.com/login"
             className="text-sm font-medium text-zinc-400 hover:text-white transition-colors hidden md:block"
           >
-            Sign In
+            Entrar
           </Link>
           <Link
-            href="/signup"
+            href="https://app.userevisy.com/registry"
             className="px-5 py-2 rounded-full bg-white text-black text-sm font-bold hover:scale-105 transition-transform"
           >
-            Get Started
+            Começar
           </Link>
         </div>
       </div>
