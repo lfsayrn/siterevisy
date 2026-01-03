@@ -149,7 +149,7 @@ export default function Hero() {
             </div>
 
             {/* Screenshot Placeholder */}
-            <div className="relative aspect-[16/10] bg-[#101010] flex items-center justify-center">
+            <div className="relative aspect-[16/9] bg-[#101010] flex items-center justify-center">
               {/* Placeholder - Replace with actual screenshot */}
               <div className="text-muted-foreground text-sm flex flex-col items-center gap-3">
                 <svg
